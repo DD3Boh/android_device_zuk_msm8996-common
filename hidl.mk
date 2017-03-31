@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl
+   
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0-java
     
 # Keymaster HAL
 PRODUCT_PACKAGES += \

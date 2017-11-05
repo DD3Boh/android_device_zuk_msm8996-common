@@ -23,6 +23,7 @@ ro.qc.sdk.audio.fluencetype=fluence
 ro.qc.sdk.audio.ssr=false
 tunnel.audio.encode=false
 use.voice.path.for.pcm.voip=true
+qcom.hw.aac.encoder=true
 
 # Bluetooth
 bt.max.hfpclient.connections=1
@@ -85,9 +86,6 @@ persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 
-# Hdmi
-qcom.hw.aac.encoder=true
-
 # HWUI properties
 ro.hwui.texture_cache_size=72
 ro.hwui.layer_cache_size=48
@@ -102,11 +100,7 @@ ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 
 # Media
-flac.sw.decoder.24bit.support=true
-media.aac_51_output_enabled=true
-mm.enable.smoothstreaming=true
-use.qti.sw.alac.decoder=true
-use.qti.sw.ape.decoder=true
+persist.media.treble_omx=false
 
 # NITZ
 persist.rild.nitz_plmn=""
@@ -118,9 +112,6 @@ persist.rild.nitz_short_ons_0=""
 persist.rild.nitz_short_ons_1=""
 persist.rild.nitz_short_ons_2=""
 persist.rild.nitz_short_ons_3=""
-
-# Media
-persist.media.treble_omx=false
 
 # Perf
 ro.am.reschedule_service=true

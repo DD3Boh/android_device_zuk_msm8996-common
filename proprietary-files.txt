@@ -611,6 +611,7 @@ vendor/qcril.db
 -vendor/app/ims/ims.apk
 
 # CNE
+framework/com.quicinc.cne.api-V1.0-java.jar
 -vendor/lib/com.quicinc.cne.api@1.0.so
 -vendor/lib/com.quicinc.cne.constants@1.0.so
 -vendor/lib/com.quicinc.cne.constants@2.0.so

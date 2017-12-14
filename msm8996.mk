@@ -122,6 +122,12 @@ PRODUCT_PACKAGES += \
     camera.msm8996 \
     libshim_camera
 
+# Connectivity Engine support (CNE)
+PRODUCT_PACKAGES += \
+    cneapiclient \
+    com.quicinc.cne \
+    services-ext
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8996 \

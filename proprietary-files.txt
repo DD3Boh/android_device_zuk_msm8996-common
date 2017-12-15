@@ -70,7 +70,6 @@ etc/permissions/telephonyservice.xml
 etc/permissions/qti_permissions.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 etc/permissions/qcrilhook.xml
-etc/permissions/qcnvitems.xml
 etc/permissions/qti-vzw-ims-internal.xml
 -framework/qcrilhook.jar
 framework/com.qti.snapdragon.sdk.display.jar
@@ -395,7 +394,7 @@ vendor/lib64/libNimsWrap.so
 vendor/lib64/libconfigdb.so
 -vendor/lib64/libgpustats.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/libsettings.so|4609cacca0a56dae2596687c8f5f2f9423d4d0d9
+vendor/lib64/libsettings.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libssd.so
@@ -558,8 +557,8 @@ vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
 -app/datastatusnotification/datastatusnotification.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/app/colorservice/colorservice.apk
--vendor/app/imssettings/imssettings.apk
--vendor/app/ims/ims.apk
+-app/imssettings/imssettings.apk
+-app/ims/ims.apk
 
 # CNE
 framework/com.quicinc.cne.api-V1.0-java.jar
@@ -672,10 +671,8 @@ vendor/lib64/libloc_externalDr.so
 vendor/lib64/vendor.qti.gnss@1.0_vendor.so
 
 # Radio
-framework/qcnvitems.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/vendor.qti.imsrtpservice@1.0.so
-lib64/libparam.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/bin/ims_rtp_daemon

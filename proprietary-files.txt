@@ -555,6 +555,7 @@ vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
 
 # APKs
+-app/datastatusnotification/datastatusnotification.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/app/colorservice/colorservice.apk
 -vendor/app/imssettings/imssettings.apk

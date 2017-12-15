@@ -589,6 +589,11 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml
 
+# embms
+-app/embms/embms.apk
+etc/permissions/embms.xml
+framework/embmslibrary.jar
+
 # OMX
 vendor/lib/libOmxAmrDec.so
 vendor/lib/libOmxVpp.so
